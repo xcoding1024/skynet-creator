@@ -9,7 +9,7 @@ LUA_ZSET_SOURCE=3rd/lua-zset/lua-skiplist.c
 ${LUA_ZSET_SOURCE}:
 	git submodule update --init 3rd/lua-zset
 
-${BUILD_CLUALIB_DIR}/$(LIB): ${SRC_FILES}
+${BUILD_CLUALIB_DIR}/$(LIB): ${SRC_FILES} ${LUA_ZSET_SOURCE}
 	$(MAKE) -C $(LUA_ZSET_PATH)
 	cp $(LUA_ZSET_PATH)/$(LIB) $(BUILD_CLUALIB_DIR)/$(LIB)
 	cp $(LUA_ZSET_PATH)/zset.lua lualib/zset.lua
