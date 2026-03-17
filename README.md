@@ -60,6 +60,7 @@ skynet-creator --help
 | bytebuffer | c | 二进制流打包与解析 | https://github.com/zhandouxiaojiji/lua-bytebuffer |
 | quadtree | c | 四叉树 | https://github.com/rangercyh/quadtree |
 | lua-zset | c | 有序集合 | https://github.com/xjdrew/lua-zset |
+| randplace | c | 矩形区域挖洞后均匀随机放置矩形 | https://github.com/rangercyh/randplace |
 
 更多的c库和lua库已在路上，大佬们有发现什么好用的库，欢迎pr
 
