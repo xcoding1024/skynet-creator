@@ -27,7 +27,7 @@ skynet-creator --help
 + Makefile 主makefile文件，编译skynet和第三方库
 + test.sh 运行test测试
 ## 示例项目
-+ [skynet-creator-sample](https://github.com/zhandouxiaojiji/skynet-creator-sample)
++ [skynet-creator-sample](https://github.com/xcoding1024/skynet-creator-sample)
 
 ## 第三方库
 + 需要编译的c库都是以submodule的形式导入项目，导入的时候引用源仓库的主干，最新的文档和说明请参考原仓库。
@@ -39,25 +39,25 @@ skynet-creator --help
 | curl | c | curl库 | https://github.com/Lua-cURL/Lua-cURLv3 |
 | openssl | c | 各类加解密算法库 | https://github.com/zhongfq/lua-openssl |
 | lz4 | c | 字符串压缩 | https://github.com/witchu/lua-lz4 |
-| pbc | c | protobuf库 | https://github.com/zhandouxiaojiji/pbc |
+| pbc | c | protobuf库 | https://github.com/xcoding1024/pbc |
 | ecs | c | ecs框架 | https://github.com/cloudwu/luaecs |
 | crab | c | 敏感字过滤 | https://github.com/xjdrew/crab |
 | lfs | c | lua文件系统 | https://github.com/keplerproject/luafilesystem |
 | jps | c | JPS寻路算法 | https://github.com/rangercyh/jps |
-| navigation | lua | 平滑的网格寻路 | https://github.com/zhandouxiaojiji/lua-navigation |
+| navigation | lua | 平滑的网格寻路 | https://github.com/xcoding1024/lua-navigation |
 | profile | c | lua性能分析 | https://github.com/lvzixun/luaprofile |
 | snapshot | c | lua快照(检测内存泄漏用) | https://github.com/lvzixun/lua-snapshot |
 | uuid | lua  | uuid生成 | https://github.com/Tieske/uuid |
 | argparse | lua | lua参数解析 | https://github.com/mpeterv/argparse |
-| behavior3 | lua | 行为树 | https://github.com/zhandouxiaojiji/behavior3lua |
+| behavior3 | lua | 行为树 | https://github.com/xcoding1024/behavior3lua |
 | fsm | lua | 有限状态机 | https://github.com/unindented/lua-fsm |
-| revent | lua | 远程消息 | https://github.com/zhandouxiaojiji/skynet-remote-event |
+| revent | lua | 远程消息 | https://github.com/xcoding1024/skynet-remote-event |
 | bewater | lua | 一些常用lua库集合 | 原仓库已经弃用，现由skynet-creator继续维护 |
-| fog | lua | 迷雾算法 | https://github.com/zhandouxiaojiji/lua-fog |
-| crypto | c | 加解密算法库 | https://github.com/zhandouxiaojiji/lua-crypto |
-| hex-grid | c | 六边形网格 | https://github.com/zhandouxiaojiji/lua-hex-grid |
-| packet | c | 二进制流打包与解析 | https://github.com/zhandouxiaojiji/lua-packet |
-| bytebuffer | c | 二进制流打包与解析 | https://github.com/zhandouxiaojiji/lua-bytebuffer |
+| fog | lua | 迷雾算法 | https://github.com/xcoding1024/lua-fog |
+| crypto | c | 加解密算法库 | https://github.com/xcoding1024/lua-crypto |
+| hex-grid | c | 六边形网格 | https://github.com/xcoding1024/lua-hex-grid |
+| packet | c | 二进制流打包与解析 | https://github.com/xcoding1024/lua-packet |
+| bytebuffer | c | 二进制流打包与解析 | https://github.com/xcoding1024/lua-bytebuffer |
 | quadtree | c | 四叉树 | https://github.com/rangercyh/quadtree |
 | lua-zset | c | 有序集合 | https://github.com/xjdrew/lua-zset |
 | randplace | c | 矩形区域挖洞算法 | https://github.com/rangercyh/randplace |
